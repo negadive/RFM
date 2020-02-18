@@ -1,0 +1,9 @@
+<script>
+var ajx = new XMLHttpRequest;
+	ajx.omreadystatechange=function(){
+		if(this.readystate==4 && this.status==200){
+			document.getElementById('show').innerHTML=this.responsetext;
+		}
+	}
+</script>
+<div id="show"></div>

@@ -1,0 +1,458 @@
+/* */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h3,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+	{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	height: auto;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	height: 1px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/*edited table {border-collapse: collapse;border-spacing: 0;}*/
+ol,
+ul {
+	list-style: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+body {
+	background-color: #ffffff;
+	background-position: center center;
+}
+
+/* CSS RESET */
+
+
+
+
+/*
+.container{
+	margin: 0px;
+	position: relative;
+}
+*/
+
+.header {
+	background-color: #1F2121;
+	padding: 20px;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+
+	font-weight: bold;
+	color: #fff;
+}
+
+.menu {
+	background-color: #1F2121;
+	padding: 10px;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #777;
+	padding: 3px;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+.menu ul li:hover ul {
+	display: inline-block;
+}
+
+.menu ul ul {
+	display: none;
+	list-style: none;
+	position: absolute;
+	background-color: #1F2121;
+	left: 60px;
+	top: 75px;
+	width: 160px;
+	padding: 0;
+}
+
+.menu ul ul li a {
+	float: none;
+	display: block;
+	padding-top: 0;
+	padding-left: 10px;
+	text-align: left;
+	width: 160px;
+}
+
+.menu ul ul li a:hover {
+	color: #fff;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/*
+.form{
+	width: 70%;
+	margin: 30px auto;
+}
+*/
+
+/*
+label{
+	display: inline-block;
+	width: 300px;
+	height: 34px;
+	margin-bottom:0.5em;
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-right: 20px;
+	vertical-align: center;
+}
+*/
+
+.tombol {
+	display: inline-block;
+	width: 300px;
+	height: 34px;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-left: 100px;
+	vertical-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+.form-control {
+	display: inline-block;
+	width: 405px ;
+	height: 25px;
+	padding: 3px 6px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+*/
+
+select.form-control {
+	display: inline-block;
+	width: 420px;
+	height: 35px;
+	padding: 3px 6px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-control2 {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/*
+.form-group{
+	margin-bottom: 15px;
+}
+*/
+
+.contact {
+	width: 70%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.img-bunder {
+	border-radius: 50%;
+	width: 200px;
+	border: 5px solid #666;
+}
+
+.page-header {
+	padding-bottom: 9px;
+	margin: 0px 0 0px;
+	background-color: #1F2121;
+	color: #fff;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.form-control3 {
+	display: inline-block;
+	width: 15%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 33px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control3:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+input.form-control3[readonly] {
+	background-color: #eee !important;
+	opacity: 1;
+}
+
+
+.btn-ungu {
+	color: #fff;
+	background-color: #8A3BA7;
+	border-color: #3F0E64;
+}
+
+.btn-ungu:focus,
+.btn-ungu.focus {
+	color: #fff;
+	background-color: #350A56;
+	border-color: #1F0534;
+}
+
+.btn-ungu:hover {
+	color: #fff;
+	background-color: #ddd;
+	border-color: #d58512;
+}
+
+.tabel {
+	margin-bottom: 50px;
+}
+
+.jumbotron {
+	height: 750px;
+	background-image: url(../images/FELLAS2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: relative;
+	color: #000000;
+	overflow: auto;
+}
+
+
+.jumbotron h1,
+.jumbotron p {
+	font-family: impact;
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	color: rgb(192, 243, 53);
+}
+
+.jumbotron h2 {
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: white;
+}
+
+.jumbotron p {
+	font-family: verdana;
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	color: rgb(192, 243, 53);
+}
+
+.wrapper {
+	margin-top: 20px;
+	margin-left: -150px;
+}
+
+.form-signin {
+
+	max-width: 300px;
+	padding: 90px 35px 85px;
+	margin: 12px 15px auto;
+	background-color: black;
+	border: 0 px solid rgb(234, 98, 95);
+
+
+}
+
+.form-signin-heading {
+	margin-bottom: 25px;
+
+
+}
+
+.checkbox {
+	font-weight: normal;
+}
